@@ -1,0 +1,33 @@
+{
+  "name": "coiner",
+  "version": "1.0.0",
+  "description": "Unofficial CLI client for Korean exchanges",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkimchi/coiner.git"
+  },
+  "keywords": [
+    "CLI",
+    "Exchanges"
+  ],
+  "author": "Philip Yoonshin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imkimchi/coiner/issues"
+  },
+  "homepage": "https://github.com/imkimchi/coiner#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}
